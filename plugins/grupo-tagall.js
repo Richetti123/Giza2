@@ -5,7 +5,7 @@ throw false
 }
 let pesan = args.join` `
 let oi = `@vsebas.y ${pesan}`
-let teks = `*ACTIVENSE CORAZONES 💜*\n${oi}\n\n*🚨𝙈𝙚𝙣𝙘𝙞𝙤𝙣𝙚𝙨*\n`
+let teks = `*ACTIVENSE CORAZONES ❤️*\n${oi}\n\n*🚨𝙈𝙚𝙣𝙘𝙞𝙤𝙣𝙚𝙨*\n`
 for (let mem of participants) {
 teks += `🍭 @${mem.id.split('@')[0]}\n`}
 teks += `GizaBot`
